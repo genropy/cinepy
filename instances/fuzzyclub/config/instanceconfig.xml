@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<GenRoBag>
+	<db dbname="cinepy:fuzzyclub" implementation="sqlite"/>
+
+	<packages>
+		<gnrcore_sys pkgcode="gnrcore:sys"/>
+		<glbl pkgcode="gnr_it:glbl"/>
+		<gnrcore_adm pkgcode="gnrcore:adm"/>
+		<cine/>
+	</packages>
+
+	<authentication pkg="adm">
+		<py_auth defaultTags="user" pkg="adm" method="authenticate"/>
+	</authentication>
+</GenRoBag>
